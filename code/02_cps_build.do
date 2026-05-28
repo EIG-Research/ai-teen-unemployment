@@ -1,9 +1,7 @@
 /*==============================================================================
   02_cps_build.do
 
-  Build CPS monthly microdata with AI exposure measures.
-
-  Replicates the processing from "01 Microdata Monthly Build.R":
+  Build CPS monthly microdata with AI exposure measures:
     1. Load CPS Basic Monthly extract from IPUMS
     2. Crosswalk pre-2020 occ2010 codes to occ2018 (probabilistic assignment)
     3. Merge four AI exposure measures (Felten, GPTs, Eisfeldt, Webb)
@@ -29,7 +27,8 @@ log using "02_cps_build_`dt'.log", replace
 di c(current_date) " " c(current_time)
 
 * --- Paths ---
-global root "/Users/jiaxinhe/Documents/projects/Claude Projects/Teen Unemployment"
+* Enter your project path here
+global root ""
 global raw "$root/data/raw"
 global crosswalks "$raw/crosswalks"
 global processed "$root/data/processed"
