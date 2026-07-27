@@ -2,7 +2,7 @@
 
 This repository contains the data and code to generate estimates in the Agglomerations post [Smells Like Teen Unemployment](https://agglomerations.eig.org/p/smells-like-teen-unemployment) by Adam Ozimek. Accurate as of the time of publication, May 26th, 2026. Contact adam@eig.org or research@eig.org with any questions.
 
-Due to the size of Current Population Survey (CPS) files, all data required to replicate the analysis may be found [through this Google Drive link](https://drive.google.com/drive/folders/1FNI_1aqrX8J_CvL_F8gx3tSdlN2bNMGr?usp=sharing).
+Due to the size of Current Population Survey (CPS) files, all data required to replicate the analysis may be found [through this Google Drive link](https://drive.google.com/drive/folders/15SFbQJpW_auapnUQ1HMDhiMiFDb8Yub2?usp=sharing).
 
 ----------
 
